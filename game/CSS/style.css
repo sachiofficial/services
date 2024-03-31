@@ -136,3 +136,499 @@
     main {
       padding-top: 60px;
     }
+/*------------------- Footer -------------------*/
+
+footer{
+  width: 100%;
+  position: relative;
+  background: #111112;
+  font-size: 13px;
+  padding: 100px 0 125px;
+  line-height: 20px;
+
+
+}
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+
+
+}
+.col{
+  flex-basis: 25%;
+  padding: 10px;
+
+}
+.col:nth-child(2),.col:nth-child(3){
+  flex-basis: 15%;
+
+}
+
+.col p{
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 60px;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+
+.col h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+
+.col1 h6{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  margin-left: -110px;
+  font-size: 17px;
+  margin-top: 13px;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+.col1 p{
+  margin-left: -110px;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+.col1 h4{
+  margin-left: -110px;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+.email-id{
+  width: fit-content;
+  margin: 20px 0;
+  cursor: pointer;
+
+}
+.email-id a{
+  text-decoration:none;
+  color: hsla(199, 89%, 49%, 1);
+}
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+
+}
+ul li a{
+  text-decoration:none;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 50px;
+
+}
+form .fa-regular{
+  font-size: 18px;
+  margin-right: 10px;
+
+}
+form input{
+  width: 100%;
+  background: transparent;
+  color: #ffffff;
+  border: 0;
+  outline: none;
+
+}
+form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+
+}
+form button .fa-solid{
+  font-size: 16px;
+  color: #ffffff;
+}
+.social-icons .fa-brands{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000000;
+  background: #000000;
+  cursor: pointer;
+
+}
+hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #959bad;
+  margin: 20px auto;
+
+  
+}
+.copyright{
+  text-align: center;
+  margin-bottom: -100px;
+    color: #5e7ba6;
+
+}
+
+/*------------------- Optimized for pc screen -------------------*/
+
+@media (min-width: 1200px) {
+.image246 {
+    margin-top: -10px;
+    margin-left: 15px;
+    width: 200px;
+    height: auto;
+}
+
+.col p{
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 60px;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+
+.col h2{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  color: hsla(199, 89%, 49%, 1);
+
+
+}
+
+.col h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+
+.col1 h6{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  margin-left: 0px;
+  font-size: 17px;
+  margin-top: 13px;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+.col1 p{
+  margin-left: 0px;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+.col1 h4{
+  margin-left: 0px;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+.email-id{
+  width: fit-content;
+  margin: 20px 0;
+  cursor: pointer;
+
+}
+.email-id a{
+  text-decoration:none;
+  color: hsla(199, 89%, 49%, 1);
+}
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+
+}
+ul li a{
+  text-decoration:none;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 50px;
+
+}
+form .fa-regular{
+  font-size: 18px;
+  margin-right: 10px;
+
+}
+form input{
+  width: 100%;
+  background: transparent;
+  color: #ffffff;
+  border: 0;
+  outline: none;
+
+}
+form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+
+}
+form button .fa-solid{
+  font-size: 16px;
+  color: #ffffff;
+}
+.social-icons .fa-brands{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000000;
+  background: #000000;
+  margin-top: -50px;
+  margin-left: 6.5%;
+  margin-right: 0%;
+  cursor: pointer;
+  text-align: center;
+
+}
+hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #959bad;
+  margin: 20px auto;
+
+  
+}
+.copyright{
+  text-align: center;
+  margin-bottom: -100px;
+    color: #5e7ba6;
+
+  }
+}
+
+/*------------------- Optimized for tablat screen ------------------- */
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .row{
+    width: 85%;
+    margin: auto;
+    gap: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.image246 {
+    margin-top: -8px;
+    margin-left: 15px;
+    width: 200px;
+    height: auto;
+}
+
+.col p{
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 0px;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+
+.col h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+.col h2{
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+  color: hsla(199, 89%, 49%, 1);
+  text-align: center;
+  
+
+}
+
+.col1 h6{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  margin-left: 0px;
+  font-size: 17px;
+  margin-top: 13px;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+.col1 p{
+  margin-left: 0px;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+.col1 h4{
+  margin-left: 0px;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+.email-id{
+  width: fit-content;
+  margin: 20px 0;
+  cursor: pointer;
+
+}
+.email-id a{
+  text-decoration:none;
+  color: hsla(199, 89%, 49%, 1);
+}
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+
+}
+ul li a{
+  text-decoration:none;
+  color: hsla(199, 89%, 49%, 1);
+
+}
+form{
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 50px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  
+
+}
+form .fa-regular{
+  font-size: 18px;
+  margin-right: 10px;
+
+
+}
+form input{
+  width: 500px;
+  background: transparent;
+  color: #ffffff;
+  border: 40px;
+  outline: white;
+
+}
+form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+
+}
+form button .fa-solid{
+  font-size: 16px;
+  color: #ffffff;
+}
+.social-icons .fa-brands{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000000;
+  background: #000000;
+  margin-left: 2%;
+  margin-right: 15%;
+  cursor: pointer;
+  text-align: center;
+
+}
+hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #959bad;
+  margin: 20px auto;
+
+  
+}
+.copyright{
+  text-align: center;
+  margin-bottom: -100px;
+    color: #5e7ba6;
+
+  }
+
+}
+
+/*------------------- Optimized for mobile screen ------------------- */
+
+@media(max-width:767px){
+  .image246 {
+    margin-left: -8px;
+    margin: 0px left;  
+    width: 200px;     
+  }
+  footer{
+    bottom: unset;
+  }
+  .col h2{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    color: hsla(199, 89%, 49%, 1);
+  
+  }
+  .col{
+    flex-basis: 100%;
+  }
+  .col1 {
+    flex-basis: 100%;
+    margin-left: 120px;
+  }
+  .col:nth-child(2),.col:nth-child(3){
+    flex-basis: 100%;
+  }
+  .col p{
+    margin-left: -1px;
+  }
+  
+  form button .fa-solid{
+    font-size: 16px;
+    color: #ffffff;
+  }
+
+  .social-icons .fa-brands{
+    width: 4%;
+    height: 4%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000000;
+    background: #000000;
+    margin-left: 10%;
+    cursor: pointer;
+  
+  }
+
+}
